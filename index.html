@@ -23,7 +23,7 @@
                 <br>
                 <div class="card">
                     <div class="card-header">
-                       <b> Tool Craw Images From Url </b>
+                        <b> Tool Craw Images From Url </b>
                     </div>
                     <div class="card-body">
                         <form method="get" action="">
@@ -46,19 +46,98 @@
 
 
                             </div>
-                            <button class="btn btn-success">Craw Images</button>
+                            <button class="btn btn-primary">Craw Images</button>
                         </form>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
         <br>
+    </div>
+
+    <div class="container">
+        <div class="">
+            <div id="accordion">
+
+                <!-- Group Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            <b> Group Images #1</b>
+                        </a>
+                        <div style="float: right;">
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                                <input id="groupchoose" class="custom-control-input" type="checkbox" name=""
+                                    value="true">
+                                <label for="groupchoose" class="custom-control-label">choose</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+
+                        <div class="card-body">
+                            <div class="row text-center text-lg-left">
+
+                                <!-- List images -->
+                                <div class="col-lg-2 col-md-3 col-3">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail"
+                                            src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-2 col-md-3 col-3">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail"
+                                            src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            <b>Group Images #2</b>
+                        </a>
+                        <div style="float: right;">
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                                <input id="groupchoose2" class="custom-control-input" type="checkbox" name=""
+                                    value="true">
+                                <label for="groupchoose2" class="custom-control-label">choose</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum..
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
         <div class="row">
             <div class="col-lg-12" style="text-align: center; ">
+
                 <div class="card">
-                  
+                    <div class="card-header">
+                        <button class="btn btn-success">Get Data</button>
+
+                    </div>
                     <div class="card-body">
+
                         <div class="form-group">
                             <textarea id="my-textarea" class="form-control" name="" rows="3"></textarea>
                         </div>
@@ -70,9 +149,7 @@
             </div>
 
         </div>
-
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
